@@ -1,0 +1,4 @@
+arduino-libraries/Ethernet
+stechio/Analog-Digital Multiplexers
+arduino-libraries/Servo@^1.2.2
+https://github.com/adafruit/Adafruit_MCP4725.git

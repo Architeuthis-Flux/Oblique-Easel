@@ -104,11 +104,13 @@ void loop() {
   sendADCToEasel();
 
   // // Update DAC values
-  // updateAllDACs();
+   updateAllDACs();
   // Update all servo DAC values
   updateAllServos();
 
   digitalWrite(25, !ledState);
+  Serial.println(lastTime);
+
 }
 
 /******************************************************************************************
